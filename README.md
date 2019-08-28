@@ -9,8 +9,8 @@ This practical, hands-on [1-credit course](http://sticsumd.com/) provides studen
 - **Course**: [CMSC389R](https://testudo.umd.edu)
 - **Prerequisites**: C- or better in CMSC216 and CMSC250
 - **Credits**: 1
-- **Seats**: 30, 2 sections
-- **Lecture Time**: Fridays, 2-2:50 PM (0101) and 3-3:50 PM (0201)
+- **Seats**: 30, 1 section
+- **Lecture Time**: Fridays, 2-2:50 PM (0101)
 - **Location**: CSI 3120
 - **Semester**: Fall 2019
 - **Textbook**: None
