@@ -14,7 +14,7 @@ This practical, hands-on [1-credit course](http://sticsumd.com/) provides studen
 - **Location**: CSI 3120
 - **Semester**: Fall 2019
 - **Textbook**: None
-- **Course Facilitators**: [Michael Reininger](https://www.github.com/1umpus), [Wesley Weidenhamer](https://github.com/wesley27), [Mitchell Kager](https://github.com/mitchellkager), and [Yuval Reiss](https://github.com/yreiss1)
+- **Course Facilitators**: [Michael Reininger](https://www.github.com/1umpus), [Mitchell Kager](https://github.com/mitchellkager), and [Yuval Reiss](https://github.com/yreiss1)
 - **Faculty Advisor**: [Dave Levin](http://www.cs.umd.edu/~dml/)
 - **Syllabus Last Updated**: August 12, 2019
 - **Previous Offering**: [Spring 2018](https://github.com/UMD-CS-STICs/389Rspring18)
@@ -114,8 +114,6 @@ Dr. Dave Levin - dml@cs.umd.edu
 TAs:
 
 Michael Reininger - michael@csec.umiacs.umd.edu
-
-Wesley Weidenhamer - president@csec.umiacs.umd.edu
 
 Mitchell Kager - mkager@cs.umd.edu
 
