@@ -10,7 +10,7 @@ To submit your homework, please follow the guidelines posted on the syllabus und
 
 ### Part 1
 
-Create a GitHub account and fork, clone, and set up your repositories to submit your homework assignments. Follow the guidelines on the [syllabus](https://github.com/UMD-CS-STICs/389Rfall19) and our [HW Submission Instructions](https://github.com/UMD-CS-STICs/389Rfall18/blob/master/HW_Submit_Instructions.md). You only have to do most of this setup once!
+Create a GitHub account and fork, clone, and set up your repositories to submit your homework assignments. Follow the guidelines on the [syllabus](https://github.com/UMD-CS-STICs/389Rfall2019) and our [HW Submission Instructions](https://github.com/UMD-CS-STICs/389Rfall18/blob/master/HW_Submit_Instructions.md). You only have to do most of this setup once!
 
 Once you've forked our class repository into your GitHub account, submit the URL of your GitHub repository via the (LINK TBD).
 
