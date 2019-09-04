@@ -12,9 +12,9 @@ To submit your homework, please follow the guidelines posted on the syllabus und
 
 Create a GitHub account and fork, clone, and set up your repositories to submit your homework assignments. Follow the guidelines on the [syllabus](https://github.com/UMD-CS-STICs/389Rfall2019) and our [HW Submission Instructions](https://github.com/UMD-CS-STICs/389Rfall18/blob/master/HW_Submit_Instructions.md). You only have to do most of this setup once!
 
-Once you've forked our class repository into your GitHub account, submit the URL of your GitHub repository via the (LINK TBD).
+Once you've forked our class repository into your GitHub account, submit the URL of your GitHub repository via the [ELMS assignment](https://umd.instructure.com/courses/1271615/assignments/4982354).
 
-If you need help with any portion of this, please reach out to us on Piazza (LINK ALSO TBD)!
+If you need help with any portion of this, please reach out to us on Piazza!
 
 ### Part 2
 
