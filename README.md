@@ -86,7 +86,7 @@ Assignments may be submitted up to 3 days late for a 5%/day penalty.
 | 2 (9/6) |[Ethics 2 + OSINT 1](week/2/OSINT.pdf) | [Writeup 2](week/2), [Kali VM installation instructions](https://github.com/UMD-CS-STICs/389Rspring18/blob/master/week/2/kali_instructions.pdf)|
 | 3 (9/13) | [OSINT II + Vulnerability scanning](https://github.com/UMD-CS-STICs/389Rfall18/blob/master/week/3/VulnerabilityScanning_OpSec_SE.pdf) | [Writeup 3](week/3) |
 | 4 (9/20) | [Penetration testing I](week/4/Pentesting-1.pdf) | [Writeup 4](week/4) |
-| 5 (9/27) | [Binaries I](week/5/Binaries%20I.pdf) | [Writeup 5](week/5) |
+| 5 (9/27) | (CLASS CANCELLED) [Binaries I](week/5/Binaries%20I.pdf) | [Writeup 5](week/5) |
 | 6 (10/4) | [Binaries II](week/6/Binaries-2.pdf) | [Writeup 6](week/6) |
 | 7 (10/11) | [Forensics I](week/7/ForensicsI.pdf) | [Writeup 7](week/7) |
 | 9 (10/18) | Midterm | |
@@ -136,5 +136,6 @@ It is very important for you to be aware of the consequences of cheating, fabric
 
 # Course Evaluations
 If you have a suggestion for improving this class, don't hesitate to tell the instructor or TAs during the semester. At the end of the semester, please don't forget to provide your feedback using the campus-wide CourseEvalUM system. Your comments will help make this class better.
+
 
 ###### Thanks to the writers of <a href = "https://github.com/UMD-CS-STICs/389Kfall17">this</a> syllabus for the wording of much of this document.
