@@ -45,7 +45,7 @@ Note: If you choose to write your own program in another language, please includ
 
 Note: If you are stuck on this part of the assignment, please let us know. The facilitator staff is open to releasing hints, though we reserve the right to deny releasing specific hints if we deem it appropriate.
 
-Note: Here's a [screenshot](shellimg.png) of what we roughly expect. I'll post a simple "public test" for which you will be graded on. Kindly bear with us here, we're trying something new :)
+Note: Here's a [screenshot](https://github.com/UMD-CS-STICs/389Rspring19/raw/master/assignments/4_Pentesting_I/shellimg.png) of what we roughly expect. I'll post a simple "public test" for which you will be graded on. Kindly bear with us here, we're trying something new :)
 
 
 ### Format
