@@ -23,7 +23,7 @@ The second flag I found was a little more tricky. I started my search by using t
 -'1;ls -alh' 
 	I added a '-alh' after the l's' in order to see permissions of the file. However, this had an unintended side effect: it displayed the last time those folders/files were editted. The home directory had the date of september 24th (last tuesday) and was the most recently updated file besides the ones that popped up with today's date.
 -'1;cd home'
-	I cd'd into the directory however I could not list the contents. I could not figure out how to enter multiple commands, as the shell boots you after either 3 seconds or after you enter anything at all. But through some trial and error I was able to successfully figure out that you can enter a new command after each semi-colon.
+	I cd'd into the directory but I could not list the contents. I could not figure out how to enter multiple commands, as the shell boots you after either 3 seconds or after you enter anything at all. But through some trial and error I was able to successfully figure out that you can enter a new command after each semi-colon.
 -'1;cd home;ls'
 	enter the home directory then finally list the contents, which in turn displayed the flag
 -'1;cd home;cat flag.txt'
@@ -33,4 +33,8 @@ I think Edward should really try and sanitize or whitelist his inputs. Kind of h
 
 ### Part 2 (55 pts)
 
-*Please use this space to detail your approach and solutions for part 2. Don't forget to upload your completed source code to this /writeup directory as well!*
+I wrote a script using python in order to run command injection on the wattsamp server. We had a 216 project that required us to write a shell similar to this one, except in python the syntax is much better, I referenced that a lot while I was writing. This is my second time having to write in python so i was quite confused, but found the language to be quite convenient. 
+
+My shell takes the users input and appends a '1;' to the front of it. This is to initiate the commabnd injection, as the wattsamp server reads the number, pings it, then takes the rest of the input as a command. After the semi colon I inject the command passed into the shell so that the server will execute the command. I then concatenate a new line character at the end of the users input to complete the input.
+
+I could not figure out how to go about download, as you can tell by my code. I overheard some other students talking about utilizing the 'cat' function in order to basically make a copy of the requested file and put it in the local path that is passed in. However, when i attempted to implement this, I could not quite figure out how to properly pass the users requested file locations into the payload.
