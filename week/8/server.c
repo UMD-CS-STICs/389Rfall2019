@@ -19,6 +19,7 @@ int main_prompt(void) {
     printf("4. execute command\n");
     printf("0. exit\n");
     printf("> ");
+    fflush(stdout);
 
     result = fgets(input, BUFF_SIZE, stdin);
     if (result == 0) return 0;
@@ -30,6 +31,7 @@ void cipher(void) {
     char input[BUFF_SIZE+1], output[BUFF_SIZE+1], c;
 
     printf("Please provide message to cipher: \n");
+    fflush(stdout);
     fgets(input, BUFF_SIZE+1, stdin);
     len = strlen(input);
     for (i = 0; i < len; i++) {
@@ -42,12 +44,14 @@ void cipher(void) {
     }
     output[len] = 0;
     printf(output);
+    fflush(stdout);
 }
 
 uint8_t elevate(char *password) {
     char input[BUFF_SIZE+1];
 
     printf("Please provide admin password: \n");
+    fflush(stdout);
     fgets(input, BUFF_SIZE+1, stdin);
 
     return !strncmp(password, input, PASS_SIZE);
@@ -60,13 +64,16 @@ void exec_command(void) {
     char buff[BUFF_SIZE+1];
 
     printf("Admin, provide a command to execute: ");
+    fflush(stdout);
     gets(buff);
     buff[BUFF_SIZE] = 0;
 
     if (strcasestr(commands, buff) == 0) {
         printf("Unable to locate %s in {%s}\n", buff, commands);
+        fflush(stdout);
     } else {
         printf("Executing \"%s\"\n", buff);
+        fflush(stdout);
         system(buff);
     }
 }
@@ -93,18 +100,22 @@ int main(void) {
         } else if (prompt_response == 3) {
             if ((admin = elevate(password)) == 0) {
                 printf("Password failed!\n");
+                fflush(stdout);
             } else {
                 printf("password successful, privilege elevated\n");
+                fflush(stdout);
             }
         } else if (prompt_response == 4) {
             if (admin) {
                 exec_command();
             } else {
                 printf("Unable to execute command without admin privileges!\n");
+                fflush(stdout);
             }
         }
     }
 
     free(password);
     printf("Goodbye!\n");
+    fflush(stdout);
 }
