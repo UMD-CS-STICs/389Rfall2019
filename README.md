@@ -92,7 +92,7 @@ Assignments may be submitted up to 3 days late for a 5%/day penalty.
 | 9 (10/18) | Midterm | |
 | 10 (10/25) | [Binaries II](week/8/BinariesII.pdf) | [Writeup 8](week/8) |
 | 10 (11/1) | [Forensics II](week/9/ForensicsII.pdf) | [Writeup 9](week/9) |
-| 11 (11/8) | [Cryptography I](week/10/Crypto-2.pdf) | [Writeup 10](week/10) |
+| 11 (11/8) | [Cryptography I](week/10/CryptoO.pdf) | [Writeup 10](week/10) |
 | 12 (11/15) | [Web I](week/11/Web.pdf) | [Writeup 11](week/11) |
 | 13 (11/22) | [Web II](week/14/Web-2.pdf) | [Writeup 12](week/14) |
 | 14 (11/29) | Thanksgiving Break |
