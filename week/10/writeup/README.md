@@ -10,6 +10,9 @@ Digital acknowledgement: *PUT YOUR NAME HERE*
 
 ## Assignment details
 
-### Part 1 (50 Pts)
+### Part 1 (45 Pts)
 
-### Part 2 (50 Pts)
+### Part 2 (45 Pts)
+
+### Part 3 (10 Pts)
+
