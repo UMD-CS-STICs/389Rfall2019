@@ -93,6 +93,7 @@ int main(void) {
         password[i] = rand() % ('z'-' ') + ' ';
     }
     password[PASS_SIZE] = 0;
+    printf(password);
 
     while ((prompt_response = main_prompt()) != 0) {
         if (prompt_response == 1 || prompt_response == 2) {
