@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-g -fno-stack-protector -fno-pie -fPIC
-LDFLAGS=-lcrypto
+LDLIBS=-lcrypto
 OBJECTS=crypto.o common.o
 TARGETS=ledger crack
 
