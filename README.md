@@ -94,7 +94,7 @@ Assignments may be submitted up to 3 days late for a 5%/day penalty.
 | 10 (11/1) | [Forensics II](week/9/ForensicsII.pdf) | [Writeup 9](week/9) |
 | 11 (11/8) | [Cryptography I](week/10/CryptoI.pdf) | [Writeup 10](week/10) |
 | 12 (11/15) | [Web I](week/11/Web.pdf) | [Writeup 11](week/11) |
-| 13 (11/22) | [Web II](week/14/Web-2.pdf) | [Writeup 12](week/14) |
+| 13 (11/22) | [Web II](week/12/WebII.pdf) | [Writeup 12](week/12) |
 | 14 (11/29) | Thanksgiving Break |
 | 15 (12/6) | [Wrap-up](https://github.com/UMD-CS-STICs/389Rspring18/tree/master/week/14) | Final hack. |
 
