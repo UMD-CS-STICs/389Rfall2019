@@ -96,7 +96,7 @@ Assignments may be submitted up to 3 days late for a 5%/day penalty.
 | 12 (11/15) | [Web I](week/11/Web.pdf) | [Writeup 11](week/11) |
 | 13 (11/22) | [Web II](week/12/WebII.pdf) | [Writeup 12](week/12) |
 | 14 (11/29) | Thanksgiving Break |
-| 15 (12/6) | [Wrap-up](https://github.com/UMD-CS-STICs/389Rspring18/tree/master/week/14) | Final hack. |
+| 15 (12/6) | [Wrap-up](week/14/Final.pdf) | Final hack. |
 
 The timeline is not final and can be subject to change.
 
